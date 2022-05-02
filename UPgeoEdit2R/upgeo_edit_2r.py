@@ -240,7 +240,7 @@ class UPgeoEdit2R:
                 line_rep_7 = line_rep_6.replace("標高", "hyoukou")
 
                 # コロンをコンマに置き換え
-                line_rep_10 = line_rep_6.replace(":", ",")
+                line_rep_10 = line_rep_7.replace(":", ",")
 
                 # ファイルに修正後の文字列を書き込む
                 l_str = line_rep_10
