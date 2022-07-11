@@ -227,7 +227,7 @@ class UPgeoEdit2R:
             # geojson.csvというファイル名で書き込み用のファイルを開く
             f = open('C:/data/geojson.csv','w')
 
-            for row_no in range(5, num_lines - 1):
+            for row_no in range(6, num_lines - 1):
                 line_text = linecache.getline(fname, row_no)
 
                 # 文字列の置き換え
